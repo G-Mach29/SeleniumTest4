@@ -25,6 +25,7 @@
     <allure.version>2.27.0</allure.version>
     <jackson-databind.version>2.17.0</jackson-databind.version>
     <httpclient.version>4.5.14</httpclient.version>
+    <bonigarcia.version>5.7.0</bonigarcia.version>
   </properties>
 
   <dependencies>
@@ -100,6 +101,12 @@
       <artifactId>junit-jupiter-params</artifactId>
       <version>${jupiter.params}</version>
       <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>${bonigarcia.version}</version>
     </dependency>
   </dependencies>
 </project>
