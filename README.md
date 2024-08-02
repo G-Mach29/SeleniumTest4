@@ -2,6 +2,7 @@
 
 This project is using the new features for Selenium WebDriver 4.23 version.
 
+
 ## 🏀 Pre-requisites: 🏀
 
 Download the latest Java JDK 
